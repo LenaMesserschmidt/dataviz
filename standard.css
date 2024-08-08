@@ -1,0 +1,21 @@
+@font-face {
+    font-family: PressStart;
+    src: url('font/PressStart.ttf');
+}
+
+* {
+    font-family: PressStart;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    color: black;
+    margin: 20px;
+}
+
+li {
+    padding: 8px;
+}

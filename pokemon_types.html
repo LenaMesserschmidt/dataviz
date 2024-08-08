@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script type="module" src="type_distribution.js"></script>
+    <link type="text/css" rel="stylesheet" href="pokemon.css" />
+</head>
+
+<body>
+    <div id="controlscontainer">
+        <div id="controls">
+            <div class="flex-container">
+                <button type="button" id="allGens" class="active button-c">ALL</button>
+                <button type="button" id="gen1" class="button-c">GEN 1</button>
+                <button type="button" id="gen2" class="button-c">GEN 2</button>
+                <button type="button" id="gen3" class="button-c">GEN 3</button>
+                <button type="button" id="gen4" class="button-c">GEN 4</button>
+            </div>
+            <div class="flex-container">
+                <button type="button" id="gen5" class="button-c">GEN 5</button>
+                <button type="button" id="gen6" class="button-c">GEN 6</button>
+                <button type="button" id="gen7" class="button-c">GEN 7</button>
+                <button type="button" id="gen8" class="button-c">GEN 8</button>
+                <button type="button" id="gen9" class="button-c">GEN 9</button>
+            </div>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div id="vizcontainer">
+            <svg style="width: 700px;height: 500px;border: 1px lightgray solid;" />
+        </div>
+    </div>
+
+</body>

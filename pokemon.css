@@ -1,0 +1,78 @@
+@font-face {
+    font-family: PressStart;
+    src: url('font/PressStart.ttf');
+}
+
+* {
+    font-family: PressStart;
+}
+
+body {
+    background-color: #c23526;
+}
+
+h1 {
+    color: #e7e7e7;
+    margin: 20px;
+}
+
+#tooltip {
+    font-size: 12px;
+    padding: 10px;
+    position: fixed;
+    display: none;
+    opacity: 0;
+    z-index: 1;
+    background: white;
+    box-shadow: 8px 8px 2px 1px #7d7d7d;
+}
+
+#controlscontainer {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#vizcontainer {
+    align-items: center;
+    width: 700px;
+    padding: 30px;
+    background-color: #aaaaaa;
+    border-radius: 40px;
+    box-shadow: 4px 6px #7d7d7d;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+button.button-c {
+    width: 100px;
+    height: 50px;
+    color: #20474b;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: inherit;
+    background-color: #2ba4b2;
+    border: 2px solid #20474b;
+    position: relative;
+    box-shadow: 1px 1px 0, 2px 2px 0, 3px 3px 0, 4px 4px 0, 5px 5px 0;
+}
+
+button.button-c.active {
+    top: 5px;
+    left: 5px;
+    border: none;
+    box-shadow: 0 0 5px #00f0ff;
+    color: #d4fbff;
+    background-color: #00f0ff;
+    text-shadow: 0 0 3px #d4fbff;
+}
+
+svg {
+    background-color: #e7e7e7;
+    box-shadow: -2px -2px #7d7d7d;
+}

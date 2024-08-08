@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script type="module" src="type_stats.js"></script>
+    <link type="text/css" rel="stylesheet" href="pokemon.css" />
+</head>
+
+<body>
+    <div id="controlscontainer">
+        <div id="controls">
+            <div class="flex-container">
+                <button type="button" id="HP" class="active button-c">HP</button>
+                <button type="button" id="ATK" class="button-c">ATK</button>
+                <button type="button" id="DEF" class="button-c">DEF</button>
+                <button type="button" id="SPATK" class="button-c">SP.ATK</button>
+                <button type="button" id="SPDEF" class="button-c">SP.DEF</button>
+                <button type="button" id="INIT" class="button-c">INIT</button>
+            </div>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div id="vizcontainer">
+            <svg style="width: 700px;height: 500px;border: 1px lightgray solid;" />
+        </div>
+    </div>
+
+</body>
