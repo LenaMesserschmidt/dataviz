@@ -1,0 +1,62 @@
+book,character,povs,classname
+1,Eddard Stark,15,ned
+1,Catelyn Stark,11,catelyn
+1,Daenerys Targaryen,10,daenerys
+1,Tyrion Lannister,9,tyrion
+1,Jon Snow,9,jon
+1,Bran Stark,7,bran
+1,Sansa Stark,6,sansa
+1,Arya Stark,5,arya
+1,Will,1,will
+2,Tyrion Lannister,15,tyrion
+2,Arya Stark,10,arya
+2,Jon Snow,8,jon
+2,Sansa Stark,8,sansa
+2,Bran Stark,7,bran
+2,Catelyn Stark,7,catelyn
+2,Theon Greyjoy,6,theon
+2,Daenerys Targaryen,5,daenerys
+2,Davos Seaworth,3,davos
+2,Cressen,1,cressen
+3,Tyrion Lannister,11,tyrion
+3,Jon Snow,12,jon
+3,Arya Stark,13,arya
+3,Jaime Lannister,9,jaime
+3,Daenerys Targaryen,6,daenerys
+3,Catelyn Stark,7,catelyn
+3,Sansa Stark,7,sansa
+3,Samwell Tarly,5,sam
+3,Davos Seaworth,6,davos
+3,Bran Stark,4,bran
+3,Chett,1,chett
+3,Merrett Frey,1,merrett
+4,Cersei Lannister,10,cersei
+4,Brienne Tarth,8,brienne
+4,Jaime Lannister,7,jaime
+4,Samwell Tarly,5,sam
+4,Arya Stark,3,arya
+4,Arianne Martell,2,arianne
+4,Victarion Greyjoy,2,victarion
+4,Aeron Greyjoy,2aeron
+4,Areo Hotah,1,areo
+4,Pate,1,pate
+4,Arys Oakheart,1,arys
+4,Asha Greyjoy,1,asha
+5,Jon Snow,13,jon
+5,Tyrion Lannister,12,tyrion
+5,Daenerys Targaryen,10,daenerys
+5,Theon Greyjoy,7,theon
+5,Barristan Selmy,4,barristan
+5,Asha Greyjoy,3,asha
+5,Davos Seaworth,4,davos
+5,Quentyn Martell,4,quentyn
+5,Bran Stark,3,bran
+5,Jon Connington,2,jonc
+5,Cersei Lannister,2,cersei
+5,Arya Stark,2,arya
+5,Victarion Greyjoy,2,victarion
+5,Kevan Lannister,1,kevan
+5,Jaime Lannister,1,jaime
+5,Areo Hotah,1,areo
+5,Varamyr,1,varamyr
+5,Melisandre,1,melisandre

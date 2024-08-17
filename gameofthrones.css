@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Lannister;
+    src: url('font/Lannister.ttf');
+}
+
+@font-face {
+    font-family: TrajanPro;
+    src: url('font/TrajanPro-Regular.ttf');
+}
+
+body {
+    background-color: #96747a;
+    font-family: TrajanPro;
+    color: #271631
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+#viz-container {
+    align-items: center;
+}
+
+h1 {
+    font-family: Lannister;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+}
+
+h2 {
+    font-family: TrajanPro;
+    font-weight: 100;
+    text-align: center;
+}
+
+circle.highlighted {
+    opacity: 0.5
+}
+
+text.book-label {
+    font-family: Lannister;
+    font-size: 26px;
+    fill: #271631
+}
+
+text#namebox {
+    font-family: Lannister;
+    font-size: 36px;
+    fill: #271631
+}
