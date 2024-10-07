@@ -1,0 +1,94 @@
+@font-face {
+    font-family: GoodBrush;
+    src: url('resources/Good\ Brush.ttf');
+}
+
+@font-face {
+    font-family: Kashima;
+    src: url('resources/Kashima\ Demo.otf');
+}
+
+body {
+    background-color: #ebe7e4;
+    color: #4c1711;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Kashima;
+    font-size: 60px;
+    margin: 20px
+}
+
+.label-container {
+    margin: 20px;
+    margin-bottom: 0;
+    padding-left: 100px;
+    font-family: Kashima;
+    font-size: 28px
+}
+
+#controls {
+    font-family: Kashima;
+    margin: 20px;
+    margin-top: 0;
+}
+
+path.japan-shadow {
+    stroke: #564740;
+    stroke-width: 1px;
+    fill: #564740;
+    opacity: .75;
+}
+
+path.japan-outline {
+    stroke: white;
+    stroke-width: 1px;
+    fill: white;
+}
+
+circle.cities {
+    stroke-width: 1;
+    stroke: #4f442b;
+    fill: #fcbc34;
+}
+
+path.color1 {
+    /**fill: #6a3f42*/
+    fill: #ff506eff
+}
+
+path.color2 {
+    /**fill: #fcc5e4*/
+    fill: #fff0f3ff
+}
+
+input {
+    -webkit-appearance: none;
+    width: 300px;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4c1711;
+    cursor: pointer;
+}
+
+input::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4c1711;
+    cursor: pointer;
+}
